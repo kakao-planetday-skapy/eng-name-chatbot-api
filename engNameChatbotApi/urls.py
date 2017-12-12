@@ -19,4 +19,5 @@ from api import views
 
 urlpatterns = [
     url(r'^random/', views.random),
+    url(r'^name/(?P<name>\w+)', views.getName),
 ]
